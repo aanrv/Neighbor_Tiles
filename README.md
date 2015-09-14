@@ -1,4 +1,4 @@
-# Neighbor_Tiles
+# Neighbor Tiles
 
 A puzzle game for iOS.
 
