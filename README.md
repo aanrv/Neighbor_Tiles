@@ -2,7 +2,7 @@
 A puzzle game for iOS devices.
 
 # Screenshots
-[Screenshot 1](screenshots/1.png)
+![Screenshot 1](screenshots/1.png)
 
 # Instructions
 
