@@ -3,11 +3,11 @@ A puzzle game for iOS.
 
 # Screenshots
 
-![Screenshot 1](screenshots/1.png)
-![Screenshot 1](screenshots/2.png)
-![Screenshot 1](screenshots/3.png)
-![Screenshot 1](screenshots/4.png)
-![Screenshot 1](screenshots/5.png)
+![Screenshot 1](screenshots/1.png =140x250)
+![Screenshot 1](screenshots/2.png =140x250)
+![Screenshot 1](screenshots/3.png =140x250)
+![Screenshot 1](screenshots/4.png =140x250)
+![Screenshot 1](screenshots/5.png =140x250)
 
 # Instructions
 
