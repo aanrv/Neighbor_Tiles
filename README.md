@@ -21,5 +21,5 @@ Your goal is to make all the tiles black!
 
 # License
 
-(c) 2014 Varan Sharma. Released under the terms of the MIT license.
+(c) 2015 Varan Sharma. Released under the terms of the MIT license.
 
