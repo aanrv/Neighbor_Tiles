@@ -30,16 +30,19 @@
  * Functions as back button. When tapped, returns user to previous scene.
  */
 @property (nonatomic) SKButton* backButton;
+
 /**
  * @property homeButton
  * Functions as home button. When tapped, returns user to MainMenuScene.
  */
 @property (nonatomic) SKButton* homeButton;
+
 /**
  * @property soundEffectSwitch
  * Toggles sound effects when tapped.
  */
 @property (nonatomic) SKSwitch* soundEffectSwitch;
+
 /**
  * @property musicSwitch
  * Toggles background music when tapped.
@@ -57,6 +60,7 @@
  * Location for home and reset button. Locations will be the same because both will not be in the same scene.
  */
 @property (nonatomic) CGPoint homeResetButtonLoc;
+
 /**
  * @property buttonSize
  * Size of buttons.
@@ -74,11 +78,13 @@
  * Duration of forward transition while navigating through scenes.
  */
 @property (nonatomic) NSTimeInterval forwardTransitionDuration;
+
 /**
  * @property backwardTransitionDuration
  * Duration of transition when going back a scene.
  */
 @property (nonatomic) NSTimeInterval backwardTransitionDuration;
+
 /**
  * @property randomTransitionDuration
  * Duration for random transitions.
@@ -101,6 +107,7 @@
  * @note This function MUST be overriden if derived children have a back button.
  */
 - (void) goBack;
+
 /**
  * Provides home button functionality in each scene.
  */

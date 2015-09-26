@@ -15,6 +15,7 @@
  * Action to be performed by parent class.
  */
 @property (nonatomic) SKAction* action;
+
 /**
  * @property sound
  * Sound effect to be played upon touchesEnded:withEvent:
@@ -26,6 +27,7 @@
  * Indicates whether switch is enabled or disabled.
  */
 @property (nonatomic) BOOL enabled;
+
 /**
  * @property isSelected
  * Indicates whether swich is currently selected.
@@ -37,16 +39,19 @@
  * Name of image when switch is enabled.
  */
 @property (nonatomic) NSString* enabledImageName;
+
 /**
  * @property enabledImageSelectedName
  * Name of image when enabled switch is selected.
  */
 @property (nonatomic) NSString* enabledImageSelectedName;
+
 /**
  * @property disabledImageName
  * Name of image wen switch is disabled.
  */
 @property (nonatomic) NSString* disabledImageName;
+
 /**
  * @property disabledImageSelectedName
  * Name of image when disabled switch is selected.
@@ -103,12 +108,14 @@
  * Toggles switch and attribute.
  */
 - (void) toggle;
+
 /**
  * Sets switch to default.
  * @see touchesMoved:withEvent:
  * @see touchesEnded:withEvent:
  */
 - (void) setToDefault;
+
 /**
  * Set switch to selected.
  * @see touchesBegan:withEvent:

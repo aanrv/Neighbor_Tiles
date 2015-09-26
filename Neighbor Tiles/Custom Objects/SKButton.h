@@ -15,6 +15,7 @@
  * Action to be performed by parent class.
  */
 @property (nonatomic) SKAction* action;
+
 /**
  * @property soundEffect
  * Action to play a sound effect associated with this button.
@@ -26,6 +27,7 @@
  * Indicates whether button is enabled or disabled.
  */
 @property (nonatomic) BOOL isDisabled;
+
 /**
  * @property isSelected
  * Indicates whether or not button is selected.
@@ -37,11 +39,13 @@
  * Name of default texture.
  */
 @property (nonatomic) NSString* defaultTextureName;
+
 /**
  * @property selectedTextureName
  * Name of texture when button is selected.
  */
 @property (nonatomic) NSString* selectedTextureName;
+
 /**
  * @property disabledTextureName
  * Name of texture when button is disabled.
@@ -90,6 +94,7 @@
  * Sets button to default (deselected) (called on touchesEnded)
  */
 - (void) setToDefault;
+
 /**
  * Sets button to selected (called on touchesBegan and touchesMoved)
  */
@@ -99,6 +104,7 @@
  * Disables button so it will not function when tapped.
  */
 - (void) disable;
+
 /**
  * Enables button so it will function when tapped.
  */

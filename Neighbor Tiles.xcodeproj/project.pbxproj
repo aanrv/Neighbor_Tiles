@@ -1345,7 +1345,7 @@
 		1548F4E4197094C900EA8931 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0700;
 				TargetAttributes = {
 					1548F4EB197094C900EA8931 = {
 						DevelopmentTeam = LXZ74J3YX9;
@@ -1697,6 +1697,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1766,6 +1767,7 @@
 				GCC_PREFIX_HEADER = "Neighbor Tiles/Supporting Files/Neighbor Tiles-Prefix.pch";
 				INFOPLIST_FILE = "Neighbor Tiles/Supporting Files/Neighbor Tiles-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.v.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "Neighbor Tiles";
 				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
@@ -1785,6 +1787,7 @@
 				GCC_PREFIX_HEADER = "Neighbor Tiles/Supporting Files/Neighbor Tiles-Prefix.pch";
 				INFOPLIST_FILE = "Neighbor Tiles/Supporting Files/Neighbor Tiles-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.v.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "Neighbor Tiles";
 				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;

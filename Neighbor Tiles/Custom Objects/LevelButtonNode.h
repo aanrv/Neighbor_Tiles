@@ -15,6 +15,7 @@
  * Name of default image.
  */
 @property (nonatomic) NSString* defaultImageName;
+
 /**
  * @property selectedImageName
  * Name of image when button is selected.
@@ -26,6 +27,7 @@
  * Default text color.
  */
 @property (nonatomic) SKColor* defaultTextColor;
+
 /**
  * @property selectedTextcolor
  * Text color when selected.
@@ -37,6 +39,7 @@
  * Image of lock.
  */
 @property (nonatomic) SKSpriteNode* lock;
+
 /**
  * @property perfectStar
  * Image of star.
@@ -48,6 +51,7 @@
  * Indicates whether or not associated level is unlocked.
  */
 @property (nonatomic) BOOL isUnlocked;
+
 /**
  * @property isSelected
  * Indicates whether or not button is selected.
@@ -59,6 +63,7 @@
  * Associated level number.
  */
 @property (nonatomic) NSInteger levelNumber;
+
 /**
  * @property levelLabel
  * Label showing associated level's number.
@@ -88,6 +93,7 @@
  * Set node to selected.
  */
 - (void) setToSelected;
+
 /**
  * Set node to default (deselected)
  */

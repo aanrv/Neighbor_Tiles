@@ -15,6 +15,7 @@
  * Action to be performed by parent class.
  */
 @property (nonatomic) SKAction* action;
+
 /**
  * @property sound
  * Sound effect to be played upon touchesEnded:withEvent:
@@ -26,6 +27,7 @@
  * Default color for label text.
  */
 @property (nonatomic) SKColor* defaultColor;
+
 /**
  * @property selectedColor
  * Text color when node is selected.
@@ -84,6 +86,7 @@
  * @see touchesEnded:withEvent:
  */
 - (void) setToDefault;
+
 /**
  * Sets button to selected. Called in touches began and moved.
  * @see touchesBegan:withEvent:
