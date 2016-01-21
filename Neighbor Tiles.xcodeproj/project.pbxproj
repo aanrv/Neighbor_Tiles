@@ -276,7 +276,7 @@
 		152893BD1AAE0C8900B23234 /* launchImageBlack4.7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImageBlack4.7.png; sourceTree = "<group>"; };
 		152893BE1AAE0C8900B23234 /* launchImageBlack4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImageBlack4.png; sourceTree = "<group>"; };
 		152893BF1AAE0C8900B23234 /* launchImageBlack5.5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImageBlack5.5.png; sourceTree = "<group>"; };
-		152AC5DC1975A833005B9B28 /* BasicGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicGameScene.h; sourceTree = "<group>"; };
+		152AC5DC1975A833005B9B28 /* TileNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TileNode.h; path = "../Custom Objects/TileNode.h"; sourceTree = "<group>"; };
 		152AC5DD1975A833005B9B28 /* BasicGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicGameScene.m; sourceTree = "<group>"; };
 		152E2A74197427AE00A43F78 /* SKButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKButton.h; sourceTree = "<group>"; };
 		152E2A75197427AE00A43F78 /* SKButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKButton.m; sourceTree = "<group>"; };
@@ -306,7 +306,7 @@
 		1548F507197094C900EA8931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		1548F509197094C900EA8931 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1548F50A197094C900EA8931 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1548F50C197094C900EA8931 /* GameModeMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GameModeMenu.h; path = "/Users/v/Dropbox/obj-c_projects/Neighbor Tiles/Neighbor Tiles/Navigation Menus/GameModeMenu.h"; sourceTree = "<absolute>"; };
+		1548F50C197094C900EA8931 /* GameModeMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GameModeMenu.h; path = "/Users/v/Dropbox/obj-c_projects/Neighbor_Tiles/Neighbor Tiles/Navigation Menus/GameModeMenu.h"; sourceTree = "<absolute>"; };
 		1548F50D197094C900EA8931 /* GameModeMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameModeMenu.m; sourceTree = "<group>"; };
 		1548F511197094C900EA8931 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1548F517197094C900EA8931 /* Neighbor TilesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Neighbor TilesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -314,7 +314,7 @@
 		1548F520197094C900EA8931 /* Neighbor TilesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Neighbor TilesTests-Info.plist"; sourceTree = "<group>"; };
 		1548F522197094C900EA8931 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1548F524197094C900EA8931 /* Neighbor TilesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Neighbor TilesTests.m"; sourceTree = "<group>"; };
-		1548F5311970963100EA8931 /* TileNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TileNode.h; path = "/Users/v/Dropbox/obj-c_projects/Neighbor Tiles/Neighbor Tiles/Custom Objects/TileNode.h"; sourceTree = "<absolute>"; };
+		1548F5311970963100EA8931 /* TileNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TileNode.h; path = "/Users/v/Dropbox/obj-c_projects/Neighbor_Tiles/Neighbor Tiles/Custom Objects/TileNode.h"; sourceTree = "<absolute>"; };
 		1548F5321970963100EA8931 /* TileNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileNode.m; sourceTree = "<group>"; };
 		154B56AD197ED9DE002DBE01 /* TimeRunScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeRunScene.h; sourceTree = "<group>"; };
 		154B56AE197ED9DE002DBE01 /* TimeRunScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeRunScene.m; sourceTree = "<group>"; };
@@ -378,6 +378,7 @@
 		1586E48F1A55DC7A00EBCB84 /* InstructionsSceneThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionsSceneThree.m; sourceTree = "<group>"; };
 		15874DEA1A6315470022AE1A /* SKLabelButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKLabelButton.h; sourceTree = "<group>"; };
 		15874DEB1A6315470022AE1A /* SKLabelButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKLabelButton.m; sourceTree = "<group>"; };
+		158759881C516D550014A577 /* BasicGameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicGameScene.h; sourceTree = "<group>"; };
 		15879DA81A218E66004C48A9 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		15879DA91A218EEB004C48A9 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		15885B601A636491000BC6CD /* greenCheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenCheck.png; sourceTree = "<group>"; };
@@ -416,8 +417,8 @@
 		15A494D81A9110E0002F34D9 /* instructionsImageTwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instructionsImageTwo.png; sourceTree = "<group>"; };
 		15A494D91A9110E0002F34D9 /* instructionsImageTwo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "instructionsImageTwo@2x.png"; sourceTree = "<group>"; };
 		15A494E81A911A23002F34D9 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		15C643961A643EAF00023140 /* InstructionsSceneBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InstructionsSceneBasic.h; path = "/Users/v/Dropbox/obj-c_projects/Neighbor Tiles/Neighbor Tiles/Navigation Menus/Instructions/InstructionsSceneBasic.h"; sourceTree = "<absolute>"; };
-		15C643971A643EAF00023140 /* InstructionsSceneBasic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InstructionsSceneBasic.m; path = "/Users/v/Dropbox/obj-c_projects/Neighbor Tiles/Neighbor Tiles/Navigation Menus/Instructions/InstructionsSceneBasic.m"; sourceTree = "<absolute>"; };
+		15C643961A643EAF00023140 /* InstructionsSceneBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InstructionsSceneBasic.h; path = "/Users/v/Dropbox/obj-c_projects/Neighbor_Tiles/Neighbor Tiles/Navigation Menus/Instructions/InstructionsSceneBasic.h"; sourceTree = "<absolute>"; };
+		15C643971A643EAF00023140 /* InstructionsSceneBasic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InstructionsSceneBasic.m; path = "/Users/v/Dropbox/obj-c_projects/Neighbor_Tiles/Neighbor Tiles/Navigation Menus/Instructions/InstructionsSceneBasic.m"; sourceTree = "<absolute>"; };
 		15C839481A9936B0007E6E09 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
 		15C839491A9936B0007E6E09 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
 		15C8394A1A9936B0007E6E09 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
@@ -583,13 +584,14 @@
 			children = (
 				15C87F0B1A8ADFCC00B596AE /* BasicSummaryScene.h */,
 				15C87F0C1A8ADFCC00B596AE /* BasicSummaryScene.m */,
-				152AC5DC1975A833005B9B28 /* BasicGameScene.h */,
+				152AC5DC1975A833005B9B28 /* TileNode.h */,
+				158759881C516D550014A577 /* BasicGameScene.h */,
 				152AC5DD1975A833005B9B28 /* BasicGameScene.m */,
 				157135EE1A1EDC46004DCF98 /* Standard */,
 				157135ED1A1EDC32004DCF98 /* Time Run */,
 			);
 			name = "Game Modes";
-			path = "/Users/v/Dropbox/obj-c_projects/Neighbor Tiles/Neighbor Tiles/Game Modes";
+			path = "/Users/v/Dropbox/obj-c_projects/Neighbor_Tiles/Neighbor Tiles/Game Modes";
 			sourceTree = "<absolute>";
 		};
 		152E2A881974585500A43F78 /* Images */ = {
@@ -737,9 +739,9 @@
 		1554DE991977755A00C4D023 /* Navigation Menus */ = {
 			isa = PBXGroup;
 			children = (
-				1586E48A1A55DC1F00EBCB84 /* Instructions */,
 				1548F50C197094C900EA8931 /* GameModeMenu.h */,
 				1548F50D197094C900EA8931 /* GameModeMenu.m */,
+				1586E48A1A55DC1F00EBCB84 /* Instructions */,
 				15F35B701A12567600B42992 /* SettingsScene.h */,
 				15F35B711A12567600B42992 /* SettingsScene.m */,
 				15D3E4CF1A6CA10A00D6ED4C /* StandardModeDifficultyScene.h */,
@@ -750,7 +752,7 @@
 				15D3E4CD1A6C9CE100D6ED4C /* LevelMenuSceneFour.m */,
 			);
 			name = "Navigation Menus";
-			path = "/Users/v/Dropbox/obj-c_projects/Neighbor Tiles/Neighbor Tiles/Navigation Menus";
+			path = "/Users/v/Dropbox/obj-c_projects/Neighbor_Tiles/Neighbor Tiles/Navigation Menus";
 			sourceTree = "<absolute>";
 		};
 		156A2CE51A8EDFA000389342 /* hand */ = {
@@ -840,7 +842,7 @@
 				153918641A69EDB3009C9D14 /* StandardSummaryScene.m */,
 			);
 			name = Standard;
-			path = "/Users/v/Dropbox/obj-c_projects/Neighbor Tiles/Neighbor Tiles/Game Modes/Standard";
+			path = "/Users/v/Dropbox/obj-c_projects/Neighbor_Tiles/Neighbor Tiles/Game Modes/Standard";
 			sourceTree = "<absolute>";
 		};
 		1579AC801A621DB100759210 /* backButton */ = {
@@ -942,7 +944,7 @@
 				1586E48F1A55DC7A00EBCB84 /* InstructionsSceneThree.m */,
 			);
 			name = Instructions;
-			path = "/Users/v/Dropbox/obj-c_projects/Neighbor Tiles/Neighbor Tiles/Navigation Menus/Instructions";
+			path = "/Users/v/Dropbox/obj-c_projects/Neighbor_Tiles/Neighbor Tiles/Navigation Menus/Instructions";
 			sourceTree = "<absolute>";
 		};
 		15873D761A8B143F0097767B /* instructionsImage */ = {
@@ -1087,7 +1089,7 @@
 				156388941A916AA000F51FAD /* StoreScene.m */,
 			);
 			name = "Other Scenes";
-			path = "/Users/v/Dropbox/obj-c_projects/Neighbor Tiles/Neighbor Tiles/Other Scenes";
+			path = "/Users/v/Dropbox/obj-c_projects/Neighbor_Tiles/Neighbor Tiles/Other Scenes";
 			sourceTree = "<absolute>";
 		};
 		15CA08E31A69C5E600EB4C28 /* tilesColors */ = {
