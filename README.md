@@ -1,6 +1,7 @@
 # Neighbor Tiles
 
 A puzzle game for iOS.
+Available for free on the [App Store](https://itunes.apple.com/us/app/neighbor-tiles/id967807378?mt=8).
 
 # Screenshots
 
@@ -16,6 +17,6 @@ You are given a grid of tiles.
 Each tile can be one of two possible colors.
 Tapping on a tile changes its color.
 
-However, all neighboring tiles will also change colors!
+Additionally, all neighboring tiles will also change colors!
 Your goal is to make all the tiles black!
 
